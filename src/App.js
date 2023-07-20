@@ -6,7 +6,7 @@ import ReviewsList from "./component/ReviewsList";
 function App() {
   
   //get the reviews data from the localstorage
-  const getReviewsDataFromLocalStorage=JSON.parse(localStorage.getItem('reviews'))
+  const getReviewsDataFromLocalStorage=JSON.parse(localStorage.getItem('reviews')) || []
   
   const [reviews,setReviews] =useState(getReviewsDataFromLocalStorage);
   
