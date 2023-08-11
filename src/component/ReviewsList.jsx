@@ -1,10 +1,6 @@
 import showRating from "./showRating"
 
-
-
 function ReviewsList({reviews,removeReview,editReview}) {
-
- 
 
   /* return the review elements with two buttons one to active the update button in the form to update the review
    and the other to delete the review */
